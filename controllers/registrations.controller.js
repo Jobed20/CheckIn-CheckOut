@@ -1,8 +1,8 @@
-const { Registration } = require("../models/registration.model");
+const {Registration} = require("../models/registration.model");
 
 const getAllRegistrations = async (req, res) => {
   try {
-    
+
     const registrations = await Registration.findAll();
 
     res.status(200).json({
@@ -18,7 +18,7 @@ const getAllRegistrations = async (req, res) => {
 
 const getRegistrationById = async (req, res) => {
   try {
-    const { registration } = req;
+    const {registration} = req;
 
     res.status(200).json({
       status: "success",

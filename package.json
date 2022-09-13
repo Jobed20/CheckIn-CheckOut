@@ -1,7 +1,7 @@
 {
-  "name": "task_1",
+  "name": "tarea_1",
   "version": "1.0.0",
-  "description": "task server",
+  "description": "",
   "main": "app.js",
   "scripts": {
     "start": "nodemon server.js"

@@ -14,5 +14,4 @@ app.all("*", (req, res) => {
     message: `${req.method} ${req.url} does not exists in our server`,
   });
 });
-
 module.exports = { app };
