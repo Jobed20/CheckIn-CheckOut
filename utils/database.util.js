@@ -9,4 +9,4 @@ const db = new Sequelize({
   database: "registrations",
 });
 
-module.exports = { db, DataTypes };
+module.exports = {db, DataTypes};
